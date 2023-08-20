@@ -1,0 +1,15 @@
+header {
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+}
+
+header .contenedor {
+    width: 100%;
+    margin-top: 65px;
+}
+
+header .contenedor img{
+    width: 100%;
+}

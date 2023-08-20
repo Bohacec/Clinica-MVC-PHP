@@ -1,0 +1,28 @@
+#seccionPrincipal {
+    padding-top: 120px;
+}
+
+#seccionGaleria {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#seccionGaleria .contenedor {
+    width: 90%;
+    margin-top: 100px;
+    display: inline-block;
+    justify-content: center;
+
+}
+
+#seccionGaleria .contenedor img {
+    width: 23%;
+    margin-right: 20px;
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    padding: 7px;
+}

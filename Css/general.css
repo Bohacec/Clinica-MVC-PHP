@@ -4,7 +4,8 @@
 @import url('menu.css');
 @import url('banner.css');
 @import url('seccionServicios.css');
-
+@import url('galeria.css');
+@import url('formularios.css');
 @import url('footer.css');
 
 * {
