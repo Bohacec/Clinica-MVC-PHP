@@ -1,0 +1,99 @@
+#seccionServicios {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#seccionServicios .contenedor {
+    width: 90%;
+    margin-top: 100px;
+    display: flex;
+}
+
+#seccionServicios .contenedor h1 {
+    color: black;
+    text-align: center;
+    margin-top: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 30px;
+    border-radius: 5px;
+    background-color: rgb(255, 247, 0);
+}
+
+#seccionServicios .contenedor p {
+    color: aliceblue;
+    padding: 7px;
+    border-radius: 20px;
+    background-color: black;
+    text-align: center;
+    font-size: 20;
+}
+
+/*Alojamiento*/
+#seccionServicios .contenedor .cadaDivisorLaboratorio {
+    width: 23%;
+    margin-right: 20px;
+    height: 400px;
+    background-image: url('../imagenes/seccionLaboratorio.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    padding: 7px;
+}
+
+#seccionServicios .contenedor .cadaDivisorLaboratorio:hover {
+    border-radius: 20px;
+}
+
+/*Dia de Campo*/
+#seccionServicios .contenedor .cadaDivisorRadiologia {
+    width: 23%;
+    margin-right: 20px;
+    height: 400px;
+    background-image: url('../imagenes/seccionRadiologia.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    padding: 7px;
+}
+
+#seccionServicios .contenedor .cadaDivisorRadiologia:hover {
+    border-radius: 20px;
+}
+
+/*Eventos*/
+#seccionServicios .contenedor .cadaDivisorHemoterapia {
+    width: 23%;
+    margin-right: 20px;
+    height: 400px;
+    background-image: url('../imagenes/seccionhEMOTERAPIA.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    padding: 7px;
+}
+
+#seccionServicios .contenedor .cadaDivisorHemoterapia:hover {
+    border-radius: 20px;
+}
+
+/*Restaurant*/
+#seccionServicios .contenedor .cadaDivisorCirugia {
+    width: 23%;
+    margin-right: 20px;
+    height: 400px;
+    background-image: url('../imagenes/seccionCirugia.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    padding: 7px;
+}
+
+#seccionServicios .contenedor .cadaDivisorCirugia:hover {
+    border-radius: 20px;
+}

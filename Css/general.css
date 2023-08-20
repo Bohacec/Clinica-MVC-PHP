@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
+@import url('menu.css');
+@import url('banner.css');
+@import url('seccionServicios.css');
+
+@import url('footer.css');
+
+* {
+    margin: 0;
+    /*margenes*/
+    padding: 0;
+    /*relleno*/
+}
+
+#seccionPrincipal {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#seccionPrincipal .contenedor {
+    width: 60%;
+    text-align: center;
+}
+
+#seccionPrincipal .contenedor h1 {
+    font-family: 'Lobster', cursive;
+    font-size: 72px;
+    color: rgb(0, 15, 89);
+}
+
+#seccionPrincipal .contenedor h2 {
+    font-family: 'Lobster', cursive;
+    font-size: 35px;
+    color: rgb(115, 108, 90);
+}
+
+#seccionPrincipal .contenedor p {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 26px;
+    padding: 10px;
+}
